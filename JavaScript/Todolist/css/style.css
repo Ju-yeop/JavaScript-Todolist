@@ -1,0 +1,107 @@
+.hidden{
+    display:none;
+}
+
+.background{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    position:absolute;
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    z-index:1;
+    opacity:80%;
+}
+
+#posi{
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:2;
+}
+
+#clock{
+    color:black;
+    font-size:90px;
+    margin-bottom:30px;
+}
+
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    opacity:30%;
+}
+
+input[type=text]:hover{
+    opacity:70%;
+    
+}
+
+#Log-in button{
+    height: 35px;
+    opacity:50%;
+    font-weight: bold;
+}
+
+#Log-in button:hover{
+    opacity:80%;
+}
+
+#Log-in{
+    margin-bottom:15px;
+}
+
+#todo-list{
+    color:rgb(189, 99, 99);
+    list-style: none;
+    text-align:left;
+}
+
+#todo-list button{
+    background: none;
+    border : none;
+}
+
+#todo-list li:hover{
+    font-weight:bold;
+}
+
+#greeting{
+    color:whitesmoke;
+}
+
+#quote{
+    position:absolute;
+    top:90%;
+    left:50%;
+    z-index:2;
+    transform: translate(-50%,-50%);
+    color:whitesmoke;
+    font-size:15px;
+    font-weight: bold;
+}
+
+#quote span:last-child{
+    display:block;
+    text-align: center;
+}
+
+#weather{
+    position:absolute;
+    top:5%;
+    left:90%;
+    z-index:2;
+    font-weight:bold;
+}
+
+
+/*
+1. 전체적인 포지션 방법 수정하기 ★
+2. 화면 크기 변화에 따른 스크롤 생성
+*/
